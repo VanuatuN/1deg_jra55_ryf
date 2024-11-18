@@ -8,34 +8,45 @@
 # (you may need to add the corresponding PBS -l storage flag in sync_data.sh)
 # shortpath: /scratch/v45
 
-queue: normal
+scheduler: slurm
+queue: boost_usr_prod
 walltime: 3:00:00
 jobname: 1deg_jra55_ryf
-mem: 1000GB
+#mem: 1000GB
 
 # Model configuration
 name: common
 model: access-om2
-input: /g/data/ik11/inputs/access-om2/input_20201102/common_1deg_jra55
+input: /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2
 submodels:
     - name: atmosphere
       model: yatm
-      exe: /g/data/ik11/inputs/access-om2/bin/yatm_d750b4b.exe
+      exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/yatm_7ce7920.exe
       input:
-            - /g/data/ik11/inputs/access-om2/input_20201102/yatm_1deg
-            - /g/data/ik11/inputs/JRA-55/RYF/v1-4
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
+            - /leonardo/home/userexternal/ntilinin/make_ryf
       ncpus: 1
 
     - name: ocean
       model: mom
-      exe: /g/data/ik11/inputs/access-om2/bin/fms_ACCESS-OM_730f0bf_libaccessom2_d750b4b.x
-      input: /g/data/ik11/inputs/access-om2/input_20201102/mom_1deg
+      exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/fms_ACCESS-OM_1883a84_libaccessom2_7ce7920.x
+      input: 
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/chlorophyll/global.1deg/2020.05.30
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/initial_conditions/global.1deg/2020.10.22
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/surface_salt_restoring/global.1deg/2020.05.30
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/grids/bathymetry/global.1deg/2020.10.22
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/grids/mosaic/global.1deg/2020.05.30
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/grids/vertical/global.1deg/2020.10.22
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/processor_masks/global.1deg/216.16x15/2020.05.30
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30
       ncpus: 216
 
     - name: ice
       model: cice5
-      exe: /g/data/ik11/inputs/access-om2/bin/cice_auscom_360x300_24p_edcfa6f_libaccessom2_d750b4b.exe
-      input: /g/data/ik11/inputs/access-om2/input_20201102/cice_1deg
+      exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/cice_auscom_360x300_24p_f39c802_libaccessom2_7ce7920.exe
+      input: 
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ice/grids/global.1deg/2020.05.30
+            - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ice/grids/global.1deg/2020.10.22
       ncpus: 24
 
 # Collation
@@ -45,7 +56,7 @@ collate:
   mem: 30GB
   ncpus: 4
   queue: normal
-  exe: /g/data/ik11/inputs/access-om2/bin/mppnccombine
+  exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
 
 # Misc
 runlog: true
