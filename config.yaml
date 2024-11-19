@@ -10,8 +10,13 @@
 
 scheduler: slurm
 queue: boost_usr_prod
-walltime: 3:00:00
+walltime: 00:30:00
 jobname: 1deg_jra55_ryf
+project: ICT24_MHPC
+jobname: access_om2_ryf
+ncpus: 256
+nnodes: 8
+npernode: 32
 #mem: 1000GB
 
 # Model configuration
@@ -25,7 +30,14 @@ submodels:
       input:
             - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
             - /leonardo/home/userexternal/ntilinin/make_ryf
+      scheduler: slurm
+      project: ICT24_MHPC
+      walltime: 00:30:00
+      queue: boost_usr_prod
       ncpus: 1
+      nnodes: 1
+      npernode: 32
+
 
     - name: ocean
       model: mom
@@ -39,7 +51,13 @@ submodels:
             - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/grids/vertical/global.1deg/2020.10.22
             - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/processor_masks/global.1deg/216.16x15/2020.05.30
             - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30
-      ncpus: 216
+      scheduler: slurm
+      project: ICT24_MHPC
+      walltime: 00:30:00
+      queue: boost_usr_prod
+      ncpus: 256
+      nnodes: 8
+      npernode: 32
 
     - name: ice
       model: cice5
@@ -47,16 +65,33 @@ submodels:
       input: 
             - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ice/grids/global.1deg/2020.05.30
             - /leonardo_scratch/fast/ICT24_MHPC/ntilinin/INPUT/access-om2/ice/grids/global.1deg/2020.10.22
-      ncpus: 24
+      scheduler: slurm
+      project: ICT24_MHPC
+      queue: boost_usr_prod
+      walltime: 00:30:00
+      ncpus: 256
+      nnodes: 8
+      npernode: 32
 
 # Collation
 collate:
   restart: true
-  walltime: 1:00:00
+  walltime: 00:30:00
   mem: 30GB
-  ncpus: 4
-  queue: normal
+  scheduler: slurm
+  project: ICT24_MHPC
+  queue: boost_usr_prod
+  ncpus: 256
+  nnodes: 8
+  npernode: 32
+  queue: boost_usr_prod
   exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
+
+
+modules:
+    load:
+        - access-om2/
+        - nco/
 
 # Misc
 runlog: true
@@ -68,7 +103,7 @@ env:
     UCX_LOG_LEVEL: 'error'
 # set number of cores per node (28 for normalbw, 48 for normal on gadi)
 platform:
-    nodesize: 48
+    nodesize: 32
 # sweep and resubmit on specific errors - see https://github.com/payu-org/payu/issues/241#issuecomment-610739771
 userscripts:
     error: resub.sh
