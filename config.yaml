@@ -91,9 +91,6 @@ modules:
     load:
         - access-om2
 
-mpi:
-  runcmd: srun        
-
 # Misc
 runlog: true
 stacksize: unlimited
