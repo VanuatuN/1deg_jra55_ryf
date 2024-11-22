@@ -87,15 +87,16 @@ collate:
   queue: boost_usr_prod
   exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
 
-
-modules:
-    load:
-        - access-om2/
-#        - nco/
-
 mpi:
    modulepath: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/modules/linux-rhel8-x86_64/intel-oneapi-compilers
-   module: intel-oneapi-compilers/2021.2.0
+   module: intel-oneapi-compilers
+
+modules:
+   use:
+      - /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/modules/linux-rhel8-x86_64/intel-oneapi-compilers
+   load:
+      - access-om2
+      - intel-oneapi-compilers
 
 # Misc
 runlog: true
