@@ -88,10 +88,10 @@ collate:
   exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
 
 
-modules:
-    load:
-        - access-om2/
-        - nco/
+mpi:
+    modulepath: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/linux-rhel8-x86_64/intel-2021.2.0
+    module: access-om2/       
+
 
 # Misc
 runlog: true
