@@ -87,7 +87,9 @@ collate:
   queue: boost_usr_prod
   exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
 
-
+modules:
+    load:
+        - access-om2
 
 # Misc
 runlog: true
