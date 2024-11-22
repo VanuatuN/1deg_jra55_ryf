@@ -93,9 +93,12 @@ collate:
 #        - access-om2/
 #        - nco/
 
+#mpi:
+#   modulepath: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/linux-rhel8-x86_64/intel-2021.2.0
+#   module: access-om2/       
+
 mpi:
-    modulepath: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/linux-rhel8-x86_64/intel-2021.2.0
-    module: access-om2/       
+   module: intel-oneapi-compilers/2021.2.0
 
 # Misc
 runlog: true
