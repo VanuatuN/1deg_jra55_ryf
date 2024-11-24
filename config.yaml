@@ -88,15 +88,17 @@ collate:
   exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
 
 modules:
-#    use:
-#        - /g/data/vk83/modules
+    use:
+        - /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/modules
     load:
         - access-om2
+        - linux-rhel8-x86_64/intel-oneapi-compilers/2021.2.0 
 
 mpi:
     use: 
     modulepath: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/modules/linux-rhel8-x86_64/intel-oneapi-compilers/
     module: 2021.2.0   
+    runcmd: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/linux-rhel8-x86_64/intel-2021.2.0/openmpi-4.1.4-urq5q2wzfhosp6xno37l6tvgyuq7ysur/bin/mpirun
 
 # Misc
 runlog: true
