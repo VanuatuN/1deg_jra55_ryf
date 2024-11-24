@@ -94,6 +94,7 @@ modules:
         - access-om2
 
 mpi:
+    use: 
     modulepath: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/modules/linux-rhel8-x86_64/intel-oneapi-compilers/
     module: 2021.2.0   
 
