@@ -35,8 +35,8 @@ submodels:
       walltime: 00:30:00
       queue: boost_usr_prod
       ncpus: 1
-#      nnodes: 1
-#      npernode: 32
+      nnodes: 1
+      npernode: 32
 
 
     - name: ocean
@@ -56,8 +56,8 @@ submodels:
       walltime: 00:30:00
       queue: boost_usr_prod
       ncpus: 32
- #     nnodes: 8
- #     npernode: 32
+      nnodes: 8
+      npernode: 32
 
     - name: ice
       model: cice5
@@ -69,9 +69,9 @@ submodels:
       project: ICT24_MHPC
       queue: boost_usr_prod
       walltime: 00:30:00
-      ncpus: 24
-#      nnodes: 8
-#      npernode: 32
+      ncpus: 32
+      nnodes: 8
+      npernode: 32
 
 # Collation
 collate:
@@ -82,8 +82,8 @@ collate:
   project: ICT24_MHPC
   queue: boost_usr_prod
   ncpus: 4
-#  nnodes: 8
-#  npernode: 32
+  nnodes: 8
+  npernode: 32
   queue: boost_usr_prod
   exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
 
