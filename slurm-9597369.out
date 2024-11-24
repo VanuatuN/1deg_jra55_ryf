@@ -1,0 +1,75 @@
+/leonardo/home/userexternal/ntilinin/.local/lib/python3.11/site-packages/payu/fsops.py:77: UserWarning: Duplicate key found in config.yaml: key 'queue' with value 'boost_usr_prod'. This overwrites the original value: 'boost_usr_prod'
+Loading access-om2/latest
+  Loading requirement: oasis3-mct/master libaccessom2/master cice5/master
+    mom5/master
+laboratory path:  ./ICT24_MHPC/ntilinin/access-om2
+binary path:  ./ICT24_MHPC/ntilinin/access-om2/bin
+input path:  ./ICT24_MHPC/ntilinin/access-om2/input
+work path:  ./ICT24_MHPC/ntilinin/access-om2/work
+archive path:  ./ICT24_MHPC/ntilinin/access-om2/archive
+Found experiment archive: ICT24_MHPC/ntilinin/access-om2/archive/1deg_jra55_ryf-438f4db9
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /leonardo/prod/spack/03/install/0.19/linux-rhel8-icelake/gcc-8.5.0/environment-modules-5.2.0-rz47odw4phlhzhhbz7b65nv5s5othgmi
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up atmosphere
+Setting up ocean
+Setting up ice
+Setting up access-om2
+Checking exe, input and restart manifests
+Unloading profile/base
+  ERROR: Module evaluation aborted
+ERROR: Unable to locate a modulefile for 'slurm'
+Loading openmpi/4.1.6--gcc--12.2.0
+  Loading requirement: gcc/12.2.0
+Currently Loaded Modulefiles:
+ 1) profile/base(default)                               
+ 2) oasis3-mct/master <aL>                              
+ 3) libaccessom2/master <aL>                            
+ 4) cice5/master <aL>                                   
+ 5) mom5/master <aL>                                    
+ 6) access-om2/latest                                   
+ 7) linux-rhel8-x86_64/intel-oneapi-compilers/2021.2.0  
+ 8) gcc/12.2.0(default) <aL>                            
+ 9) openmpi/4.1.6--gcc--12.2.0(default)                 
+
+Key:
+(symbolic-version)  <module-tag>  <aL>=auto-loaded  
+/leonardo/home/userexternal/ntilinin/.local/lib/python3.11/site-packages/payu/runlog.py:110: UserWarning: Error occured when attempting to commit runlog
+Writing manifests/restart.yaml
+mod profile/base
+mod cintools/1.0
+mod oasis3-mct/master
+mod libaccessom2/master
+mod cice5/master
+mod mom5/master
+mod access-om2/latest
+mod linux-rhel8-x86_64/intel-oneapi-compilers/2021.2.0
+payu: warning: mpirun config option is deprecated.  Use mpi: flags option instead
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/config.yaml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/atmosphere/atm.nml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/atmosphere/forcing.json
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ocean/data_table
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ocean/diag_table
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ocean/field_table
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ocean/input.nml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ice/cice_in.nml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ice/input_ice.nml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ice/input_ice_gfdl.nml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ice/input_ice_monin.nml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/ice/input_ice.nml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/accessom2.nml
+git add /leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/namcouple
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2024-11-24 19:16:43: Run 0"
+git commit --no-gpg-sign -am "2024-11-24 19:16:43: Run 0"
+mpirun --mca io ompio --mca io_ompio_num_aggregators 1 -wdir ./ICT24_MHPC/ntilinin/access-om2/work/1deg_jra55_ryf-438f4db9/atmosphere -n 1 -map-by ppr:16.0:socket  ./ICT24_MHPC/ntilinin/access-om2/work/1deg_jra55_ryf-438f4db9/atmosphere/yatm_7ce7920.exe : -wdir ./ICT24_MHPC/ntilinin/access-om2/work/1deg_jra55_ryf-438f4db9/ocean -n 256 -map-by ppr:16.0:socket  ./ICT24_MHPC/ntilinin/access-om2/work/1deg_jra55_ryf-438f4db9/ocean/fms_ACCESS-OM_1883a84_libaccessom2_7ce7920.x : -wdir ./ICT24_MHPC/ntilinin/access-om2/work/1deg_jra55_ryf-438f4db9/ice -n 32 -map-by ppr:16.0:socket  ./ICT24_MHPC/ntilinin/access-om2/work/1deg_jra55_ryf-438f4db9/ice/cice_auscom_360x300_24p_f39c802_libaccessom2_7ce7920.exe
+/leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/access-om2.err ./ICT24_MHPC/ntilinin/access-om2/archive/1deg_jra55_ryf-438f4db9/error_logs/access-om2.a2af0e.err
+/leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/access-om2.out ./ICT24_MHPC/ntilinin/access-om2/archive/1deg_jra55_ryf-438f4db9/error_logs/access-om2.a2af0e.out
+/leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/job.yaml ./ICT24_MHPC/ntilinin/access-om2/archive/1deg_jra55_ryf-438f4db9/error_logs/job.a2af0e.yaml
+/leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/env.yaml ./ICT24_MHPC/ntilinin/access-om2/archive/1deg_jra55_ryf-438f4db9/error_logs/env.a2af0e.yaml
+/leonardo/home/userexternal/ntilinin/access-om2/control/1deg_jra55_ryf/resub.sh
+payu: Model exited with error code 1; aborting.

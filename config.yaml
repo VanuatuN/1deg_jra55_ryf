@@ -83,7 +83,6 @@ collate:
   ncpus: 4
   nnodes: 1
 #  npernode: 32
-  queue: boost_usr_prod
   exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
 
 modules:
@@ -93,10 +92,10 @@ modules:
         - access-om2
         - linux-rhel8-x86_64/intel-oneapi-compilers/2021.2.0 
 
-# mpi:
-#     use: 
-#     modulepath: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/modules/linux-rhel8-x86_64/intel-oneapi-compilers/
-#     module: 2021.2.0   
+mpi:
+    use: 
+    modulepath: /leonardo_scratch/large/userexternal/ntilinin/ACCESS-NRI/release/modules/linux-rhel8-x86_64/intel-oneapi-compilers/
+    module: 2021.2.0   
 
 # Misc
 runlog: true
