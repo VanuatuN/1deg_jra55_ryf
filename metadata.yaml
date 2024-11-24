@@ -1,6 +1,6 @@
 contact: Natalia Tilinina
 email: natalia.tilinina@gmail.com
-created: '2024-11-22'
+created: '2024-11-24'
 description: |-
   1 degree ACCESS-OM2 global model configuration under the RYF9091 Repeat
   Year Forcing strategy outlined by Stewart et al. (2020), 
@@ -31,7 +31,7 @@ keywords:
 - access-om2-1
 - jra55-do-v1.4.0
 - ryf
-experiment_uuid: 405fd3e2-ab49-4649-8d36-8254ebb35592
-name: 1deg_jra55_ryf-405fd3e2
+experiment_uuid: 438f4db9-6b12-4de0-a614-9b4a023e190c
+name: 1deg_jra55_ryf-438f4db9
 model: ACCESS-OM2
 url: git@github.com:VanuatuN/1deg_jra55_ryf.git
