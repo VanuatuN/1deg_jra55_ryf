@@ -13,8 +13,8 @@ scheduler: slurm
 walltime: 00:30:00
 jobname: 1deg_jra55_ryf
 project: ICT24_MHPC
-ncpus: 512
-nnodes: 16
+#ncpus: 512
+#nnodes: 16
 #npernode: 32
 #mem: 1000GB
 
@@ -34,8 +34,8 @@ submodels:
       walltime: 00:30:00
       queue: boost_usr_prod
       ncpus: 1
-#      nnodes: 1
-#      npernode: 32
+      nnodes: 1
+      npernode: 32
 
 
     - name: ocean
@@ -54,9 +54,9 @@ submodels:
       project: ICT24_MHPC
       walltime: 00:30:00
       queue: boost_usr_prod
-      ncpus: 216
-#      nnodes: 14
-#      npernode: 32
+      ncpus: 256
+      nnodes: 8
+      npernode: 32
 
     - name: ice
       model: cice5
@@ -68,9 +68,9 @@ submodels:
       project: ICT24_MHPC
       queue: boost_usr_prod
       walltime: 00:30:00
-      ncpus: 24
-#      nnodes: 2
-#      npernode: 32
+      ncpus: 32
+      nnodes: 1
+      npernode: 32
 
 # Collation
 collate:
@@ -81,7 +81,7 @@ collate:
   project: ICT24_MHPC
   queue: boost_usr_prod
   ncpus: 4
-#  nnodes: 1
+  nnodes: 1
 #  npernode: 32
   queue: boost_usr_prod
   exe: /leonardo/home/userexternal/ntilinin/access-om2/bin/mppnccombine
