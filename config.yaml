@@ -22,17 +22,17 @@ nnodes: 6
 name: common
 model: access-om2
 input:
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/JRA55_MOM1_conserve2nd.nc
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/JRA55_MOM1_patch.nc
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_1st_conserve.nc
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_2nd_conserve.nc
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_patch.nc
+  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
+  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
+  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
+  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
+  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
 submodels:
     - name: atmosphere
       model: yatm
       exe: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/bin/yatm_444ac5d.exe
       input:
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jrar_to_cict_CONSERV.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
             - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf
       ncpus: 1
       nnodes: 1
@@ -43,19 +43,19 @@ submodels:
       model: mom
       exe: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/bin/fms_ACCESS-OM_88a2664-modified_libaccessom2_444ac5d.x
       input:
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/mosaic/global.1deg/2020.05.30/grid_spec.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/mosaic/global.1deg/2020.05.30/ocean_hgrid.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/mosaic/global.1deg/2020.05.30/ocean_mosaic.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/bathymetry/global.1deg/2020.10.22/topog.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/bathymetry/global.1deg/2020.10.22/ocean_mask.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/vertical/global.1deg/2020.10.22/ocean_vgrid.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/processor_masks/global.1deg/216.16x15/2020.05.30/ocean_mask_table
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/chlorophyll/global.1deg/2020.05.30/chl.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/initial_conditions/global.1deg/2020.10.22/ocean_temp_salt.res.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30/tideamp.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30/roughness_amp.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30/roughness_cdbot.nc
-          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/surface_salt_restoring/global.1deg/2020.05.30/salt_sfc_restore.nc
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/mosaic/global.1deg/2020.05.30
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/mosaic/global.1deg/2020.05.30
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/mosaic/global.1deg/2020.05.30
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/bathymetry/global.1deg/2020.10.22
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/bathymetry/global.1deg/2020.10.22
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/grids/vertical/global.1deg/2020.10.22
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/processor_masks/global.1deg/216.16x15/2020.05.30
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/chlorophyll/global.1deg/2020.05.30
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/initial_conditions/global.1deg/2020.10.22
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30
+          - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/surface_salt_restoring/global.1deg/2020.05.30
       ncpus: 216
       nnodes: 2
       npernode: 108  
@@ -65,12 +65,12 @@ submodels:
       model: cice5
       exe: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/bin/cice_auscom_360x300_24p_edcfa6f-modified_libaccessom2_444ac5d.exe
       input:
-        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/grids/global.1deg/2020.05.30/grid.nc
-        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/grids/global.1deg/2020.10.22/kmt.nc
-        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30/i2o.nc
-        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30/o2i.nc
-        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30/u_star.nc
-        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30/monthly_sstsss.nc
+        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/grids/global.1deg/2020.05.30
+        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/grids/global.1deg/2020.10.22
+        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30
+        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30
+        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30
+        - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30
       nnodes: 2
       npernode: 84
       ncpus: 168     

@@ -26,6 +26,11 @@ work/INPUT/rmp_jra55_cice_patch.nc:
   hashes:
     binhash: 03dc6b83ab79d641dac861d7633871a0
     md5: aa91ea2e3cdef04f58ed5db8f8d7de6d
+work/INPUT/rmp_jrar_to_cict_CONSERV.nc:
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jrar_to_cict_CONSERV.nc
+  hashes:
+    binhash: aff6cffdee955ee057264ffe7f38c0f4
+    md5: 10f0b5ea6b8102a03ad1140e5163a0f7
 work/atmosphere/INPUT/.git/COMMIT_EDITMSG:
   fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/.git/COMMIT_EDITMSG
   hashes:
@@ -281,6 +286,16 @@ work/atmosphere/INPUT/.ipynb_checkpoints/testing_ryf-checkpoint.ipynb:
   hashes:
     binhash: 25bed0f2cbeee07d1f6746ee8b4f8c03
     md5: bc11871efc647e0ddf5d3b7111bb6d77
+work/atmosphere/INPUT/JRA55_MOM1_conserve2nd.nc:
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/JRA55_MOM1_conserve2nd.nc
+  hashes:
+    binhash: 7fa11327262459459614a8df9b4e8823
+    md5: 00be8ec0f1126055b65dc68178ce4eb5
+work/atmosphere/INPUT/JRA55_MOM1_patch.nc:
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/JRA55_MOM1_patch.nc
+  hashes:
+    binhash: 0fd3b7163486ecc76a0addf8bae11370
+    md5: 6c345282e51521828f62b842e58dd734
 work/atmosphere/INPUT/README.md:
   fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/README.md
   hashes:
@@ -346,6 +361,21 @@ work/atmosphere/INPUT/make_ryf.ipynb:
   hashes:
     binhash: a13c693a9a44476c10d2b7ce21a59f0f
     md5: c660c68400feb3c8ad50a66455612088
+work/atmosphere/INPUT/rmp_jra55_cice_1st_conserve.nc:
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_1st_conserve.nc
+  hashes:
+    binhash: d70729a73a08e01d9153f7c3dae34087
+    md5: 6404d936d4898e5ed31e62b585d630cf
+work/atmosphere/INPUT/rmp_jra55_cice_2nd_conserve.nc:
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_2nd_conserve.nc
+  hashes:
+    binhash: eb63fdc37eddee6ce655c6969f95e670
+    md5: 79885c8149d65a55d093244935f62360
+work/atmosphere/INPUT/rmp_jra55_cice_patch.nc:
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_patch.nc
+  hashes:
+    binhash: 03dc6b83ab79d641dac861d7633871a0
+    md5: aa91ea2e3cdef04f58ed5db8f8d7de6d
 work/atmosphere/INPUT/rmp_jrar_to_cict_CONSERV.nc:
   fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jrar_to_cict_CONSERV.nc
   hashes:
