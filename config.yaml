@@ -17,6 +17,8 @@ account: ICT26_ESP
 partition: dcgp_usr_prod
 ncpus: 672
 nnodes: 6
+laboratory: /leonardo_scratch/fast/ICT26_ESP/ntilinin/access-om2
+experiment: 1deg_jra55_ryf-leo
 
 # Model configuration
 name: common
