@@ -29,7 +29,6 @@ modules:
       - intel-oneapi-compilers/2021.2.0-p7vtyvv
       - netcdf-c/4.7.4-d4klyvu 
       - netcdf-fortran/4.5.2-5ln2rw
-      #- parallelio/2.5.2-fmgl254 
       - openmpi/4.1.4-ga6avsd
 
 name: common
@@ -124,10 +123,10 @@ mpi:
 qsub_flags: umask 027
 env:
     UCX_LOG_LEVEL: 'error'
-    # LD_LIBRARY_PATH: /leonardo/home/userexternal/ntilinin/ACCESS-NRI/release/linux-rhel8-x86_64/intel-2021.2.0/openmpi-4.1.4-ga6avsdxmjya35twagfjts7jp3yahbwt/lib:$LD_LIBRARY_PATH
-    # OMPI_MCA_btl_tcp_if_includel: ib0
-    # MCA_IO: ompio 
-    # MCA_IO_OMPIO_NUM_AGGREGATORS: 1
+    LD_LIBRARY_PATH: /leonardo/home/userexternal/ntilinin/ACCESS-NRI/release/linux-rhel8-x86_64/intel-2021.2.0/openmpi-4.1.4-ga6avsdxmjya35twagfjts7jp3yahbwt/lib
+    OMPI_MCA_btl_tcp_if_includel: ib0
+    MCA_IO: ompio 
+    MCA_IO_OMPIO_NUM_AGGREGATORS: 1
 # set number of cores per node (28 for normalbw, 48 for normal on gadi, 112 on Leo in dcgp partition)
 platform:
     nodesize: 112
