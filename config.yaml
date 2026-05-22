@@ -18,9 +18,21 @@ partition: dcgp_usr_prod
 ncpus: 672
 nnodes: 6
 laboratory: /leonardo_scratch/fast/ICT26_ESP/ntilinin/access-om2
-experiment: 1deg_jra55_ryf-leo
+experiment: 1deg_jra55_ryf-cosima
 
 # Model configuration
+
+modules:
+  use:
+      - /leonardo/home/userexternal/ntilinin/ACCESS-NRI/release/modules/linux-rhel8-x86_64
+  load:
+      - intel-oneapi-compilers/2021.2.0-p7vtyvv
+      - netcdf-c/4.7.4-d4klyvu 
+      - netcdf-fortran/4.5.2-5ln2rw
+      #- parallelio/2.5.2-fmgl254 
+      - openmpi/4.1.4-ga6avsd
+      - pmix@4.2.2
+
 name: common
 model: access-om2
 input:
