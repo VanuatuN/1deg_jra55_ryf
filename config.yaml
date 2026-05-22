@@ -112,6 +112,20 @@ collate:
     #queue: do not set for slurm
   exe: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/bin/mppnccombine
 
+sync:
+    enable: False # set path below and change to true
+    #path: null # Set to location on /g/data or a remote server and path (rsync syntax)
+    #path: /leonardo_scratch/fast/ICT26_ESP/ntilinin/1deg_jra55_ryf_bench_cice5 
+    restarts: True 
+    exclude_uncollated: False
+    #remove_local_files: True
+    #remove_local_dirs: True
+    mem: 2G
+    ncpus: 4
+    nnodes: 1
+    npernode: 4
+
+
 # Misc
 runlog: true
 stacksize: unlimited
