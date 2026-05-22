@@ -93,9 +93,9 @@ submodels:
         - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30
         - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30
         - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ice/initial_conditions/global.1deg/2020.05.30
-      nnodes: 2
-      npernode: 84
-      ncpus: 168     
+      nnodes: 1
+      npernode: 24
+      ncpus: 24     
       partition: dcgp_usr_prod
      #mem: 200GB
 
