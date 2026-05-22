@@ -106,11 +106,18 @@ collate:
 runlog: true
 stacksize: unlimited
 restart_freq: 1  # use tidy_restarts.py instead
-mpirun: --mca io ompio --mca io_ompio_num_aggregators 1
-qsub_flags: -W umask=027
+#mpirun: --mca io ompio --mca io_ompio_num_aggregators 1
+mpi:
+  runcmd: srun
+#qsub_flags: -W umask=027
+qsub_flags: umask 027
 env:
     UCX_LOG_LEVEL: 'error'
-# set number of cores per node (28 for normalbw, 48 for normal on gadi)
+    # LD_LIBRARY_PATH: /leonardo/home/userexternal/ntilinin/ACCESS-NRI/release/linux-rhel8-x86_64/intel-2021.2.0/openmpi-4.1.4-ga6avsdxmjya35twagfjts7jp3yahbwt/lib:$LD_LIBRARY_PATH
+    # OMPI_MCA_btl_tcp_if_includel: ib0
+    # MCA_IO: ompio 
+    # MCA_IO_OMPIO_NUM_AGGREGATORS: 1
+# set number of cores per node (28 for normalbw, 48 for normal on gadi, 112 on Leo in dcgp partition)
 platform:
     nodesize: 112
 # sweep and resubmit on specific errors - see https://github.com/payu-org/payu/issues/241#issuecomment-610739771
