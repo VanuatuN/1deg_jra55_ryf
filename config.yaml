@@ -32,8 +32,18 @@ submodels:
       model: yatm
       exe: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/bin/yatm_444ac5d.exe
       input:
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jrar_to_cict_CONSERV.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.friver.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.huss.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.licalvf.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.prra.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.prsn.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.psl.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.rlds.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.rsds.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.tas.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.uas.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.vas.1990_1991.nc
       ncpus: 1
       nnodes: 1
       npernode: 1
