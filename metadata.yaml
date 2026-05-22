@@ -1,6 +1,6 @@
 contact: Add your name here
 email: Add your email address here
-created: Add the date you started the experiment here (YYYY-MM-DD)
+created: '2026-05-22'
 description: |-
   1 degree ACCESS-OM2 global model configuration under the RYF9091 Repeat
   Year Forcing strategy outlined by Stewart et al. (2020), 
@@ -25,8 +25,12 @@ notes: |-
   (c) let us know of any publications which use these models or data so we can add them to our list:
   https://scholar.google.com/citations?hl=en&user=inVqu_4AAAAJ
 keywords:
-  - one
-  - cosima
-  - access-om2-1
-  - jra55-do-v1.4.0
-  - ryf
+- one
+- cosima
+- access-om2-1
+- jra55-do-v1.4.0
+- ryf
+experiment_uuid: 718d9e87-65fb-46d6-beca-3bfb03478001
+name: 1deg_jra55_ryf-leo-718d9e87
+model: ACCESS-OM2
+url: https://github.com/VanuatuN/1deg_jra55_ryf.git
