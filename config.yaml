@@ -10,7 +10,7 @@
 
 scheduler: slurm
 #queue: do not set for slurm
-walltime: 00:30:00
+walltime: 10:00:00
 jobname: 1deg_speedy_ryf
 mem: 200G
 account: ICT26_ESP
@@ -18,7 +18,7 @@ partition: dcgp_usr_prod
 ncpus: 672
 nnodes: 6
 laboratory: /leonardo_scratch/fast/ICT26_ESP/ntilinin/access-om2
-experiment: 1deg_speedy_ryf-cosima
+experiment: 1deg_speedy_ryf-cosima25y
 
 # Model configuration
 
@@ -102,8 +102,8 @@ submodels:
 # Collation
 collate:
   restart: true
-  walltime: 00:15:00
-  mem: 30GB
+  walltime: 05:00:00
+  mem: 30G
   ncpus: 4
   nnodes: 1
   npernode: 4
