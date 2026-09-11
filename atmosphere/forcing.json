@@ -1,5 +1,5 @@
 {
-  "description": "JRA55-do V1.4.0 RYF 1990-91 forcing",
+  "description": "SPEEDY RYF 1990-91 atmospheric forcing with JRA55-do runoff and calving",
   "inputs": [
     {
       "filename": "INPUT/RYF.rsds.1990_1991.nc",

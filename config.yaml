@@ -10,15 +10,15 @@
 
 scheduler: slurm
 #queue: do not set for slurm
-walltime: 03:00:00
-jobname: 1deg_jra55_ryf
+walltime: 00:30:00
+jobname: 1deg_speedy_ryf
 mem: 200G
 account: ICT26_ESP
 partition: dcgp_usr_prod
 ncpus: 672
 nnodes: 6
 laboratory: /leonardo_scratch/fast/ICT26_ESP/ntilinin/access-om2
-experiment: 1deg_jra55_ryf-cosima
+experiment: 1deg_speedy_ryf-cosima
 
 # Model configuration
 
@@ -34,28 +34,28 @@ modules:
 name: common
 model: access-om2
 input:
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
-  - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30
+  - /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools
 submodels:
     - name: atmosphere
       model: yatm
       exe: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/bin/yatm_444ac5d.exe
       input:
+            # JRA runoff/calving remain unchanged
             - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jrar_to_cict_CONSERV.nc
             - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.friver.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.huss.1990_1991.nc
             - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.licalvf.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.prra.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.prsn.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.psl.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.rlds.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.rsds.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.tas.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.uas.1990_1991.nc
-            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.vas.1990_1991.nc
+
+            # SPEEDY atmospheric forcing
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.huss.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.prra.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.prsn.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.psl.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.rlds.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.rsds.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.tas.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.uas.1990_1991.nc
+            - /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.vas.1990_1991.nc
+
       ncpus: 1
       nnodes: 1
       npernode: 1

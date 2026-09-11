@@ -1,91 +1,616 @@
 format: yamanifest
 version: 1.0
 ---
-work/INPUT/JRA55_MOM1_conserve2nd.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/JRA55_MOM1_conserve2nd.nc
+work/INPUT/JRA55_MOM1_conserve.nc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/JRA55_MOM1_conserve.nc
   hashes:
-    binhash: 7fa11327262459459614a8df9b4e8823
-    md5: 00be8ec0f1126055b65dc68178ce4eb5
-work/INPUT/JRA55_MOM1_patch.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/JRA55_MOM1_patch.nc
+    binhash: 5f8edc0ac2a496859c15d0955bb4353d
+    md5: caeb08374fa17686901cdab224e00205
+work/INPUT/PET0.RegridWeightGen.Log:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/PET0.RegridWeightGen.Log
   hashes:
-    binhash: 0fd3b7163486ecc76a0addf8bae11370
-    md5: 6c345282e51521828f62b842e58dd734
-work/INPUT/rmp_jra55_cice_1st_conserve.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_1st_conserve.nc
+    binhash: 1390981dc2b1cf7f5f0ca48a3ca9acd9
+    md5: 183301c9c25197042bfb2dfde0d134aa
+work/INPUT/README.md:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/README.md
   hashes:
-    binhash: d70729a73a08e01d9153f7c3dae34087
-    md5: 6404d936d4898e5ed31e62b585d630cf
-work/INPUT/rmp_jra55_cice_2nd_conserve.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_2nd_conserve.nc
+    binhash: 38c276aba82cfdfde099e9894ac82dc4
+    md5: 8b23355a6df2e20e470143fecf6ca6dd
+work/INPUT/SPEEDY_MOM1_conserve.nc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/SPEEDY_MOM1_conserve.nc
   hashes:
-    binhash: eb63fdc37eddee6ce655c6969f95e670
-    md5: 79885c8149d65a55d093244935f62360
-work/INPUT/rmp_jra55_cice_patch.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jra55_cice_patch.nc
+    binhash: 234d0aa5bbace7798f34fa9d374af92a
+    md5: aed4e1902eb35912661b774f1e4e28b0
+work/INPUT/SPEEDY_MOM1_patch.nc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/SPEEDY_MOM1_patch.nc
   hashes:
-    binhash: 03dc6b83ab79d641dac861d7633871a0
-    md5: aa91ea2e3cdef04f58ed5db8f8d7de6d
-work/INPUT/rmp_jrar_to_cict_CONSERV.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jrar_to_cict_CONSERV.nc
+    binhash: cd4f2137aa7c2562ae978712aa67e56e
+    md5: c6b98163ca7edab0cef303ab66b4a552
+work/INPUT/__pycache__/make_remap_weights.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/__pycache__/make_remap_weights.cpython-311.pyc
   hashes:
-    binhash: aff6cffdee955ee057264ffe7f38c0f4
-    md5: 10f0b5ea6b8102a03ad1140e5163a0f7
+    binhash: 2ea2d880f188794fbcceb30ed2357ebb
+    md5: ccd23119a7ef4f65e406b7407ad73ad7
+work/INPUT/add_core2_time_bounds.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/add_core2_time_bounds.py
+  hashes:
+    binhash: 0f4bd2c64a62f4d959570759b826f5ac
+    md5: 220f0541223605aa8ebd245200bb5b1b
+work/INPUT/calc_input_checksum.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/calc_input_checksum.py
+  hashes:
+    binhash: 6ec01dbc56141a11ab95dbaee4bd9b7c
+    md5: 092de4656b16f4b1f52d555bcf05000a
+work/INPUT/check_cice_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/check_cice_grid.py
+  hashes:
+    binhash: 045e47cd0907f47704a9cfc299d05f0f
+    md5: 0cf0746b25fb91aed179bb1e514e115f
+work/INPUT/check_weight.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/check_weight.sh
+  hashes:
+    binhash: 6607de9f08af1bb094bd00a31e927111
+    md5: 868cb11d1063da969ceedc7f6abcc681
+work/INPUT/check_weights.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/check_weights.py
+  hashes:
+    binhash: cecad47d89df7106a71fc45690e65ebf
+    md5: 7440a8e6706a946b10a699af52a59091
+work/INPUT/cice_test_scrip.nc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/cice_test_scrip.nc
+  hashes:
+    binhash: 7fc35a8c8445a3f9e6385fac72ac9771
+    md5: 20c50d239abf67716cfb74897169b0a2
+work/INPUT/contrib/build_esmf_on_raijin.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/contrib/build_esmf_on_raijin.sh
+  hashes:
+    binhash: 49865379f8851c6b3a9fdfeeb855037d
+    md5: 8a71e65c99089fcbc9f7f081cb86c8d7
+work/INPUT/contrib/build_esmf_on_ubuntu.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/contrib/build_esmf_on_ubuntu.sh
+  hashes:
+    binhash: 5fd963f7e2e7fd28257875a318295fea
+    md5: 070eb87a4a15d60617155a3e77e84af1
+work/INPUT/esmgrids/LICENSE.md:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/LICENSE.md
+  hashes:
+    binhash: 926808b779eebae806ce6853df29ded3
+    md5: 826d41118b35cd3c5a2bdab64d95f13d
+work/INPUT/esmgrids/README.md:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/README.md
+  hashes:
+    binhash: debb62764b1b7d9240b8c03ace27e55a
+    md5: d213a13d157d261d73f4d8de25a626e0
+work/INPUT/esmgrids/esmgrids/__init__.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__init__.py
+  hashes:
+    binhash: 290c4b6260715802c8a0e495d606847b
+    md5: d41d8cd98f00b204e9800998ecf8427e
+work/INPUT/esmgrids/esmgrids/__pycache__/__init__.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/__init__.cpython-311.pyc
+  hashes:
+    binhash: b7fadcd052ef99e7a62c05ddf3dd8379
+    md5: cc3a5474ac65dfeb899017107f533ec6
+work/INPUT/esmgrids/esmgrids/__pycache__/__init__.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/__init__.cpython-39.pyc
+  hashes:
+    binhash: 9d7d496f03b67928d523cb43dae406cc
+    md5: cdcd38625010740836f3206cd41743da
+work/INPUT/esmgrids/esmgrids/__pycache__/base_grid.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/base_grid.cpython-311.pyc
+  hashes:
+    binhash: 640824102a143195bc2a4163f83b475e
+    md5: fdfd399a37c14721b01f8d3ecef3d058
+work/INPUT/esmgrids/esmgrids/__pycache__/base_grid.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/base_grid.cpython-39.pyc
+  hashes:
+    binhash: e7c67806002956ef085770dd0e983972
+    md5: ad256a6c91b460a86311cdd3cd812e18
+work/INPUT/esmgrids/esmgrids/__pycache__/cice_grid.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/cice_grid.cpython-311.pyc
+  hashes:
+    binhash: 327952d495abd0f1914f685e5890dc77
+    md5: c8dca236d7a0ffb7cba0ce3e7c957d07
+work/INPUT/esmgrids/esmgrids/__pycache__/core2_grid.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/core2_grid.cpython-311.pyc
+  hashes:
+    binhash: 3b72b9fd4aef6bbf375b88e86de8331e
+    md5: bc282535f5cdc0179bd5fddfb1eaa26d
+work/INPUT/esmgrids/esmgrids/__pycache__/core2_grid.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/core2_grid.cpython-39.pyc
+  hashes:
+    binhash: 4c0767ff03b069ee1e9b3ff63fa1ca75
+    md5: b732c6b1b6a0d14f74bad4fdcee7b6a0
+work/INPUT/esmgrids/esmgrids/__pycache__/daitren_runoff_grid.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/daitren_runoff_grid.cpython-311.pyc
+  hashes:
+    binhash: 8f85bf947c1c0237369de8c400bdf152
+    md5: f95bc4d87b8bbed5a0541219318c0534
+work/INPUT/esmgrids/esmgrids/__pycache__/daitren_runoff_grid.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/daitren_runoff_grid.cpython-39.pyc
+  hashes:
+    binhash: 828071d1d26a2761e178c8c4a7551e25
+    md5: 5855536e396396fb48be468a124f72d5
+work/INPUT/esmgrids/esmgrids/__pycache__/jra55_grid.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/jra55_grid.cpython-311.pyc
+  hashes:
+    binhash: e8444d913234bb6ccc083de8c9c1472b
+    md5: 8469ac5fe1a81831ec11041fd538ba49
+work/INPUT/esmgrids/esmgrids/__pycache__/jra55_grid.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/jra55_grid.cpython-39.pyc
+  hashes:
+    binhash: 9fefbb75bf361dbe3e25a4954dd51a62
+    md5: 074b252d4e4163b9858914646ce903c1
+work/INPUT/esmgrids/esmgrids/__pycache__/jra55_river_grid.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/jra55_river_grid.cpython-311.pyc
+  hashes:
+    binhash: 71f2de10664a6413e90be8a03f9dc3d3
+    md5: 80587094605020bd5a5b9cde4b19cb21
+work/INPUT/esmgrids/esmgrids/__pycache__/jra55_river_grid.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/jra55_river_grid.cpython-39.pyc
+  hashes:
+    binhash: d6a7d88e1612f3b9635b4e83202c1b15
+    md5: b6a69835b1c7e46ae01c7d3f21372465
+work/INPUT/esmgrids/esmgrids/__pycache__/mom_grid.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/mom_grid.cpython-311.pyc
+  hashes:
+    binhash: 778a452c5ea3263952ed1996a6d88e20
+    md5: 74c2d6ab30945e29b4137d684b1d33f1
+work/INPUT/esmgrids/esmgrids/__pycache__/mom_grid.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/mom_grid.cpython-39.pyc
+  hashes:
+    binhash: a601d929710a8b09709318c32d272d4d
+    md5: 7d0a8fef5ad47bbb57bee8abfb8297a9
+work/INPUT/esmgrids/esmgrids/__pycache__/speedy_grid.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/speedy_grid.cpython-311.pyc
+  hashes:
+    binhash: 17f9db65bc79504b1f081d1be9f1cce8
+    md5: d13347e2095442049c80d2a9c3650554
+work/INPUT/esmgrids/esmgrids/__pycache__/speedy_grid.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/speedy_grid.cpython-39.pyc
+  hashes:
+    binhash: ccb7c056f53d7c3912f4ceb2d3a9ae21
+    md5: de1697024967fb6e3857d932f41ab2d6
+work/INPUT/esmgrids/esmgrids/__pycache__/util.cpython-311.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/util.cpython-311.pyc
+  hashes:
+    binhash: 49cf7cae397843a95727ee1d10929b31
+    md5: 19d501cce795a88acf73cc0b39247a0c
+work/INPUT/esmgrids/esmgrids/__pycache__/util.cpython-39.pyc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/__pycache__/util.cpython-39.pyc
+  hashes:
+    binhash: 85b695cc51d7f42a8712d027e199f78b
+    md5: 53086134b6e2782e6ba89ee40ff7528a
+work/INPUT/esmgrids/esmgrids/base_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/base_grid.py
+  hashes:
+    binhash: 74363f93cbcb8c6e4073f26d38083841
+    md5: cb57bb796c1af1b524551e4d50424e6c
+work/INPUT/esmgrids/esmgrids/cice_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/cice_grid.py
+  hashes:
+    binhash: e7bd9e984c7f95dfd9f154795457240d
+    md5: 95ddc2929218e14138f5a1afe9c8147e
+work/INPUT/esmgrids/esmgrids/core2_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/core2_grid.py
+  hashes:
+    binhash: 2bc17c1cfc3e873eeb8001d460d7f6a2
+    md5: d31a96661dc61a048d67fde7f01cdddf
+work/INPUT/esmgrids/esmgrids/daitren_runoff_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/daitren_runoff_grid.py
+  hashes:
+    binhash: fde576e5c8625c8f74d03336bd68d49f
+    md5: fbd20243bdac7cac04ba8ede11bd6db6
+work/INPUT/esmgrids/esmgrids/fv300_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/fv300_grid.py
+  hashes:
+    binhash: d42e561ec091d8ff6ecafa68650edb34
+    md5: aa2efcc91bb91ffb8bfbaa9fe5658a73
+work/INPUT/esmgrids/esmgrids/godas_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/godas_grid.py
+  hashes:
+    binhash: d2c17dabf405ecc43ce27f3a1bc4aeec
+    md5: 7118f0217469a28e9dcc081fadf9e869
+work/INPUT/esmgrids/esmgrids/jra55_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/jra55_grid.py
+  hashes:
+    binhash: df06e724b3a6d0926b125ca214589705
+    md5: 7f486fa3603e89d3a6e8adb9c8e279b6
+work/INPUT/esmgrids/esmgrids/jra55_river_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/jra55_river_grid.py
+  hashes:
+    binhash: ed8a169a305cc9aa2d963dec411f45dd
+    md5: 500a24d2adf5edc86ceafbc4be18c98b
+work/INPUT/esmgrids/esmgrids/mom_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/mom_grid.py
+  hashes:
+    binhash: 40f8e342659928002d9b7698d3d1774a
+    md5: 2a86514ac5af4fcb11f6ff98a7816cbb
+work/INPUT/esmgrids/esmgrids/nemo_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/nemo_grid.py
+  hashes:
+    binhash: 98ca76730a2e0c1cbff50de5e4b8ee6e
+    md5: e7a35623746f043a315f063fdf649ccc
+work/INPUT/esmgrids/esmgrids/oasis_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/oasis_grid.py
+  hashes:
+    binhash: b70c40464d92d0f977455cc2b05c16ca
+    md5: f6c2d8d8d3b78df47996cc577311c98e
+work/INPUT/esmgrids/esmgrids/oras_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/oras_grid.py
+  hashes:
+    binhash: c74d0ce4af52e5f16eab8763b03b68f4
+    md5: 9c1e0c7707539f86bc7356c4992a1593
+work/INPUT/esmgrids/esmgrids/regular_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/regular_grid.py
+  hashes:
+    binhash: 90537de0bae85bd387392107e52a5eb2
+    md5: ffb840280aa16c2ba84872c1923e7c1f
+work/INPUT/esmgrids/esmgrids/speedy_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/speedy_grid.py
+  hashes:
+    binhash: 824d9e2db074f265320506af6d94e970
+    md5: c4a808ed512288b3d2ff1f1fa7211de1
+work/INPUT/esmgrids/esmgrids/t42_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/t42_grid.py
+  hashes:
+    binhash: 78c469adb41d3b65bef85849492385f2
+    md5: 955079980626ab9389d19948af6c304e
+work/INPUT/esmgrids/esmgrids/tripolar_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/tripolar_grid.py
+  hashes:
+    binhash: 28ff783989d77e0069b712fd63631fa6
+    md5: 40ecf0a0397bda3d214e229f1a10e631
+work/INPUT/esmgrids/esmgrids/um_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/um_grid.py
+  hashes:
+    binhash: 1b5ab4d57241b0985d731e480262b53c
+    md5: 8507c70a4ec498eb9f7cec5dc299ba2c
+work/INPUT/esmgrids/esmgrids/util.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/util.py
+  hashes:
+    binhash: cf9307dcc19837a0458bc3d5730260ae
+    md5: 71eab700d947308a7661d997f942e1e9
+work/INPUT/esmgrids/esmgrids/woa_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/esmgrids/woa_grid.py
+  hashes:
+    binhash: caff0aa9121da5cba5e24e527d93f986
+    md5: 3c8372ee5a2d3e30321b804a373fda9b
+work/INPUT/esmgrids/grids.yml:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/grids.yml
+  hashes:
+    binhash: 2e7ece5a5edd4f42bc0aff961c7779a7
+    md5: b2a07a7e8c44deb79512ce6ada1eca48
+work/INPUT/esmgrids/regrid_helper.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/regrid_helper.py
+  hashes:
+    binhash: d8a914971a7ba0ef386d8258936c6366
+    md5: d2a23e5a4529e53c92f71917cb99df37
+work/INPUT/esmgrids/test/test_grids.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/esmgrids/test/test_grids.py
+  hashes:
+    binhash: 3a1e3e3eecbce579383bbb37d63f9301
+    md5: cef5873cb64a546f91ada0ed40856b8d
+work/INPUT/initial_conditions_access-om2/README:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/README
+  hashes:
+    binhash: 2ad159ff2177a348934733b544b51088
+    md5: 4cb1991bfc0b466b25dae0d560ebf4e2
+work/INPUT/initial_conditions_access-om2/check_initial_condition.ipynb:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/check_initial_condition.ipynb
+  hashes:
+    binhash: 35c7a15d25a2aa2df53c92607a69f06e
+    md5: 4191d1fee16e57690823f0d32934526f
+work/INPUT/initial_conditions_access-om2/copy_to_input_rc.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/copy_to_input_rc.sh
+  hashes:
+    binhash: 06f54f07683bd73780c756b4eeb78349
+    md5: 71f1c88cd13515b82f0546ff59e00e85
+work/INPUT/initial_conditions_access-om2/finalise.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/finalise.sh
+  hashes:
+    binhash: 534d3d204acfdee220a77de28dd1d8eb
+    md5: a0f2aa99fe46ca02e3b5aff72577fe4c
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/01/make_ic:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/01/make_ic
+  hashes:
+    binhash: 413d56e97ae47584b678700c68e02702
+    md5: 5b37fa1fd48829322a55d985421b887f
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/01/md5sum.txt:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/01/md5sum.txt
+  hashes:
+    binhash: 4944bd1cb783556f7390c72fcc3a3d08
+    md5: b536361ba0cc8be8367692142e739683
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/025/make_ic:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/025/make_ic
+  hashes:
+    binhash: 7c1c503662075b4557b420a7be1d2bbf
+    md5: 7616b3d11278db4571c7c3a696525b79
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/025/md5sum.txt:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/025/md5sum.txt
+  hashes:
+    binhash: 496d82ec17efaaf09e17396cd5ac6a38
+    md5: 2d9dd5d57ddaf12d92e1d2d99eb70ee8
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/10/make_ic:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/10/make_ic
+  hashes:
+    binhash: d05ee74116e3009ef6545b141f02be99
+    md5: 8c77f1787a373dfabfff0de8bf384465
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/10/md5sum.txt:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/10/md5sum.txt
+  hashes:
+    binhash: bbec8c4dd3402ecaba23de9b2bec4e71
+    md5: e5d1127682b500624671206dd3a5b352
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/README:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/README
+  hashes:
+    binhash: 7f16b394f10bcf1943e9fc6717dd1be4
+    md5: 61373c377465e4135717c1f9e927bf8d
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/make_inital_conditions.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/make_inital_conditions.sh
+  hashes:
+    binhash: e6ebed5069eebf12def24725b605c8ad
+    md5: 7aa7304e404aa30a2adc5d729da1cb6e
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/README.md:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/README.md
+  hashes:
+    binhash: 487a458b5cafc4feccbf3cc7ca1a328c
+    md5: 4b0477588a9dd39f721bf8aacf055e35
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/doc/MOM_IC_SALT_GODAS.png:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/doc/MOM_IC_SALT_GODAS.png
+  hashes:
+    binhash: 1074268b0b911ce3328677174123fcdc
+    md5: bdf31d4556756d5ae87daf3f81021bdd
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/doc/MOM_IC_TEMP_ORAS4.png:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/doc/MOM_IC_TEMP_ORAS4.png
+  hashes:
+    binhash: 25f79eaeabd9751cb32b929b9910a899
+    md5: 85bed11ea87bcdb3dfc6b850e22e5360
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/ic_stability_metric.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/ic_stability_metric.py
+  hashes:
+    binhash: 504f463b4837a202d584e1bd5a440295
+    md5: f944efe2d8fe3d094252f7aef7b16011
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/makeic.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/makeic.py
+  hashes:
+    binhash: 49ce659b1d4bbf1c4723b64f5e72e75a
+    md5: c6065af64719df39fbb4d1f1612838d8
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/makeic_simple.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/makeic_simple.py
+  hashes:
+    binhash: 778699222bd42982b8ca9e35e8d0872e
+    md5: f569340a019159ff881e300a2fb4d987
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/README.md:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/README.md
+  hashes:
+    binhash: 0b9736d8a4be2e4ced1e0c92609a2156
+    md5: 0865d301093c3be76e57bf6699cd361e
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/__init__.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/__init__.py
+  hashes:
+    binhash: 1417477a67855315212f3e175b21b336
+    md5: d41d8cd98f00b204e9800998ecf8427e
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/columns.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/columns.py
+  hashes:
+    binhash: b061fe91beb56833ad8f919bbe3a0da7
+    md5: 2d0a4cefa71aee2db4a99821cd2b7597
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/contrib/build_esmf.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/contrib/build_esmf.sh
+  hashes:
+    binhash: bd2e03e006da8902fd0954b73091a138
+    md5: 070eb87a4a15d60617155a3e77e84af1
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/godas_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/godas_grid.py
+  hashes:
+    binhash: 8efbe044771292dc625a22d29e30cfe1
+    md5: 97af8af292c80a45c19af37a0045cb3f
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/grid.py
+  hashes:
+    binhash: 41f9f264d45bcdba65654c16672886ad
+    md5: c918d48b613cf2bfa9ba1f22644c370d
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/mom1_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/mom1_grid.py
+  hashes:
+    binhash: c29b3ec5b99b091885311ffb030bc66c
+    md5: 0ba568cae920ee7272df696cdab48b02
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/mom_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/mom_grid.py
+  hashes:
+    binhash: cb3d7e50d6b1908ad0fa40cacb29eb92
+    md5: e7641b277e4a3ad3ddeba9bda4d79afb
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/nemo_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/nemo_grid.py
+  hashes:
+    binhash: c5c7f84a3281b4d1413a93080975dc59
+    md5: 8afcfbb1e1c373ed301513245a682ab6
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/oras_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/oras_grid.py
+  hashes:
+    binhash: cbd285a4d702dbdcbc6d11a69293f541
+    md5: b6947b0c4953e9ec6e89bb5566744a12
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/regrid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/regrid.py
+  hashes:
+    binhash: ea8f1f0ebbb885118aca9b68c99893b4
+    md5: f96979cdb0d58f1c13513b038d0532ac
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/regrid.yml:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/regrid.yml
+  hashes:
+    binhash: 0193d527764debe971e110e491034dc3
+    md5: 64db93d0dd844ad0100e563246637fdb
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/regrid_simple.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/regrid_simple.py
+  hashes:
+    binhash: 5e7d66c198fb56535472c94515c8c013
+    md5: ab2a41008e2e952bad3b8235e00d2d33
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/regular_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/regular_grid.py
+  hashes:
+    binhash: f76414d89bfe48b6f29d9b7eb390f85f
+    md5: 7cdfcd4dd10e5dec054f9cfbaed38f80
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/release/regrid.spec:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/release/regrid.spec
+  hashes:
+    binhash: c0fc6c0a2b201b9002b5ca0d088710a8
+    md5: a113f4115899f2cdde76cbd07f26ed15
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/test/test_regrid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/test/test_regrid.py
+  hashes:
+    binhash: 362360fc8d1a0532f5565f626c769809
+    md5: 3ea24f256788d0097a93993453949d22
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/tripolar_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/tripolar_grid.py
+  hashes:
+    binhash: 1dc9f3c6c51b526af57e8d1c51cee511
+    md5: 30554b8e591e5d76fd8083e4dbc968cd
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/util.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/util.py
+  hashes:
+    binhash: 0c7969c4eed14f110964d69fa1d057bb
+    md5: 5b53e99be4bc1c836afb974af58084c8
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/woa_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/regridder/woa_grid.py
+  hashes:
+    binhash: 9f098fc60d04b31ad7d9c9424e354044
+    md5: e60e814735b54e76523209615670b16f
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/release/makeic.spec:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/release/makeic.spec
+  hashes:
+    binhash: 0ef5d5539bb35bb0bbadd234ee76ace2
+    md5: 1b6848f3ddccd225b1562f6c2ebb6581
+work/INPUT/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/test/test_ic.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/initial_conditions_WOA/ocean-ic/test/test_ic.py
+  hashes:
+    binhash: 2dfe02840da86a9bb870786c80bafbd3
+    md5: db29713af3d0693f96fa772dead20f5e
+work/INPUT/initial_conditions_access-om2/inte.csh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/inte.csh
+  hashes:
+    binhash: 012bf6e81d64edf8387e0ae51dfe5ecd
+    md5: ee1a12357bd02244a78a34fbea73f96e
+work/INPUT/initial_conditions_access-om2/setup_WOA_initial_conditions.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/initial_conditions_access-om2/setup_WOA_initial_conditions.py
+  hashes:
+    binhash: db1922ef7af2cc757592c9dab60ead35
+    md5: b503fde3dcf34e46c2d60aeba0fd8496
+work/INPUT/make_cice_grid.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/make_cice_grid.py
+  hashes:
+    binhash: d93bfbaab431a2b5e4725b1f4a37c30c
+    md5: 59977d145a4be69f04fbcb1d3602ca72
+work/INPUT/make_remap_weights.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/make_remap_weights.py
+  hashes:
+    binhash: e6330b0b11ea96473c5d77c02bdb0737
+    md5: 71916d0e9b3d618581d4a5e8721a29bf
+work/INPUT/make_remap_weights.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/make_remap_weights.sh
+  hashes:
+    binhash: cadb2a515b95918bf87aa706acd41905
+    md5: e9de2d06a2df27e55ff39d732d3f79ab
+work/INPUT/make_remap_weights_speedy.sh:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/make_remap_weights_speedy.sh
+  hashes:
+    binhash: defae2622fb5bd1f4bb0e6b2e07d3b81
+    md5: 0d636c24ac03e9bb88b4b1294bab71f7
+work/INPUT/make_salt_sfc_restore.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/make_salt_sfc_restore.py
+  hashes:
+    binhash: a8dfa4d1ee93ad3ff3bd8e5ad2ae45c4
+    md5: 382308518c6ce11d579f4e275c310e3a
+work/INPUT/release.py:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/release.py
+  hashes:
+    binhash: 359669208ac6187617a2b0a626426041
+    md5: 77a631364b050a95a644f354af423b37
+work/INPUT/rmp_speedy_cice_1st_conserve.nc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/rmp_speedy_cice_1st_conserve.nc
+  hashes:
+    binhash: 8f4d575d159ab1392952614dcf4c8853
+    md5: aed4e1902eb35912661b774f1e4e28b0
+work/INPUT/rmp_speedy_cice_patch.nc:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/rmp_speedy_cice_patch.nc
+  hashes:
+    binhash: d64045ac094becc2b8a8398e640d3249
+    md5: c6b98163ca7edab0cef303ab66b4a552
+work/INPUT/slurm-speedy-weights-57164247.err:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/slurm-speedy-weights-57164247.err
+  hashes:
+    binhash: 0ccff31e05b416333d2987a25a9194bf
+    md5: 171c20ccdbb5dfdd04810db3d7e09464
+work/INPUT/slurm-speedy-weights-57164247.out:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/slurm-speedy-weights-57164247.out
+  hashes:
+    binhash: e2e3d5dca63a84a8a0d35d93052d6c66
+    md5: e2e1fa882f2a43b862c1fe323e00681b
+work/INPUT/slurm-speedy-weights-57165988.err:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/slurm-speedy-weights-57165988.err
+  hashes:
+    binhash: 809c8d52b072e9df747811ac310a21a4
+    md5: 9a3c13cb0789a82905926178018bd87b
+work/INPUT/slurm-speedy-weights-57165988.out:
+  fullpath: /leonardo/home/userexternal/ntilinin/COSIMA/access-om2/tools/slurm-speedy-weights-57165988.out
+  hashes:
+    binhash: 424fbdcf2a7fa4730cb76db4c5d2b68a
+    md5: c805e744f0dddd8503c089fd0cdefc02
 work/atmosphere/INPUT/RYF.friver.1990_1991.nc:
   fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.friver.1990_1991.nc
   hashes:
     binhash: b50de313b724f76872637ba5b2a8cd60
     md5: 217cc1d5e7d94feb0c084037c4effb51
 work/atmosphere/INPUT/RYF.huss.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.huss.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.huss.1990_1991.nc
   hashes:
-    binhash: 6be72ad9abc82a3250568d7701b6e90e
-    md5: 9812557a0dc79223319827c577c35c11
+    binhash: 346a88441e5887ec481be40779bd3a04
+    md5: df1e3fc7d04c7af26387ed09cf438eea
 work/atmosphere/INPUT/RYF.licalvf.1990_1991.nc:
   fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.licalvf.1990_1991.nc
   hashes:
     binhash: d7f1ead2698e1fc6853d072d3d08d4ac
     md5: 54797916b45341466c9d6fabe3e28fa6
 work/atmosphere/INPUT/RYF.prra.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.prra.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.prra.1990_1991.nc
   hashes:
-    binhash: a7927b17ef03c63639589ebdca86ce22
-    md5: 8bb3179947b8d7a9aa8c2a73319b9e45
+    binhash: 80584151b69df31ebf3e737b4043585f
+    md5: 51e6ea7ee73f32ae662db69c67c5ef52
 work/atmosphere/INPUT/RYF.prsn.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.prsn.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.prsn.1990_1991.nc
   hashes:
-    binhash: 6da8c035a590eb237b6ab32be73317c5
-    md5: 054fad4bc6d8676fd426666457846dcc
+    binhash: b54c396eff75349433da369f66c23f51
+    md5: 59c1942c175ebacf580993a84d748a42
 work/atmosphere/INPUT/RYF.psl.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.psl.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.psl.1990_1991.nc
   hashes:
-    binhash: f232e01625e3dbb2c572c2dfdf549389
-    md5: d6c4bdaa9dcdaf7b78bf663903a49b22
+    binhash: a6b4fba18c8383d5d62c3ce68f2de8b5
+    md5: 736070a57764ae5c1925e1281da80f75
 work/atmosphere/INPUT/RYF.rlds.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.rlds.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.rlds.1990_1991.nc
   hashes:
-    binhash: 23d4d18003eb72e70a08c594d582eaa6
-    md5: c1abbe15a180292c6c23dda642003d0c
+    binhash: b0833384ef84b288457d22043b84c83e
+    md5: 489eb842eccdbbf6d3de8f2ac7937800
 work/atmosphere/INPUT/RYF.rsds.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.rsds.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.rsds.1990_1991.nc
   hashes:
-    binhash: 528db52489d6ed1ad5961c65a4d76b30
-    md5: 52de84634c998064823862ad28cd5414
+    binhash: 080994e8b6e44fe25bf6523508bbd4f1
+    md5: c4e4ad99deb2d9848953cfb2a1dc52f6
 work/atmosphere/INPUT/RYF.tas.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.tas.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.tas.1990_1991.nc
   hashes:
-    binhash: bf1f90d94f585e2540f28abf38127d2f
-    md5: e17b73ae0fd23bef71479cc24dae09f4
+    binhash: e45f9a27c674d9036b901e594a122b1b
+    md5: 2f25c99b0637d3844a0ab04356dd8bb0
 work/atmosphere/INPUT/RYF.uas.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.uas.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.uas.1990_1991.nc
   hashes:
-    binhash: 713707f5586082ddb01201f20dfe9836
-    md5: 0b925eb4023d96fdde34692473a139e2
+    binhash: fe2358fc98677c5ce700e37620d69ba0
+    md5: 677395b8d9daaf08b7be94f2d9aebda5
 work/atmosphere/INPUT/RYF.vas.1990_1991.nc:
-  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/make_ryf/RYF.vas.1990_1991.nc
+  fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/SPEEDY_access/access_forcing/RYF/RYF.vas.1990_1991.nc
   hashes:
-    binhash: 2b18c3e5f083ea2218a15bf24e3f3b70
-    md5: f9596dac895694b0405844b7f3f35c0f
+    binhash: 0ee61f568c33577c021b98065e610c5f
+    md5: 539da6d1c0cdec6438017f9e7d40fe03
 work/atmosphere/INPUT/rmp_jrar_to_cict_CONSERV.nc:
   fullpath: /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/remapping_weights/JRA55/global.1deg/2020.05.30/rmp_jrar_to_cict_CONSERV.nc
   hashes:
