@@ -10,7 +10,7 @@
 
 scheduler: slurm
 #queue: do not set for slurm
-walltime: 00:10:00
+walltime: 00:30:00
 jobname: 1deg_speedy_ryf
 mem: 200G
 account: ICT26_ESP
@@ -102,7 +102,7 @@ submodels:
 # Collation
 collate:
   restart: true
-  walltime: 00:07:00
+  walltime: 00:15:00
   mem: 30GB
   ncpus: 4
   nnodes: 1
