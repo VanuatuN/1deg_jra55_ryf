@@ -10,7 +10,7 @@
 
 scheduler: slurm
 #queue: do not set for slurm
-walltime: 00:30:00
+walltime: 00:10:00
 jobname: 1deg_speedy_ryf
 mem: 200G
 account: ICT26_ESP
@@ -28,7 +28,7 @@ modules:
   load:
       - intel-oneapi-compilers/2021.2.0-p7vtyvv
       - netcdf-c/4.7.4-d4klyvu 
-      - netcdf-fortran/4.5.2-5ln2rw
+      - netcdf-fortran/4.5.2-5ln2rw2
       - openmpi/4.1.4-ga6avsd
 
 name: common
