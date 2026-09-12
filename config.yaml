@@ -18,7 +18,7 @@ partition: dcgp_usr_prod
 ncpus: 672
 nnodes: 6
 laboratory: /leonardo_scratch/fast/ICT26_ESP/ntilinin/access-om2
-experiment: 1deg_speedy_ryf-cosima25y
+experiment: 1deg_speedy_ryf-cosima100yr
 
 # Model configuration
 
@@ -79,8 +79,8 @@ submodels:
           - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/tides/global.1deg/2020.05.30
           - /leonardo_scratch/fast/ICT26_ESP/ntilinin/INPUT/access-om2/ocean/surface_salt_restoring/global.1deg/2020.05.30
       ncpus: 216
-      nnodes: 2
-      npernode: 108  
+      nnodes: 3
+      npernode: 72 
       partition: dcgp_usr_prod
 
     - name: ice
@@ -102,7 +102,7 @@ submodels:
 # Collation
 collate:
   restart: true
-  walltime: 05:00:00
+  walltime: 02:00:00
   mem: 30G
   ncpus: 4
   nnodes: 1
@@ -150,6 +150,7 @@ platform:
 userscripts:
     error: resub.sh
     run: rm -f resubmit.count
+    #sync: /leonardo/home/userexternal/ntilinin/om2-scripts/concatenate_ice/concat_ice_daily.sh
 
 # DANGER! Do not uncomment this without checking the script is syncing to the correct location!
 # postscript: sync_data.sh
