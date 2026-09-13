@@ -1,10 +1,10 @@
-contact: Add your name here
-email: Add your email address here
-created: '2026-05-22'
+contact: Natalia Tilinina
+email: natalia.tilinina@gmail.com
+created: '2026-09-13'
 description: |-
   1 degree ACCESS-OM2 global model configuration under the RYF9091 Repeat
   Year Forcing strategy outlined by Stewart et al. (2020), 
-  https://doi.org/10.1016/j.ocemod.2019.101557.
+  https://doi.org/10.1016/j.ocemod.2019.101557. Spin-up experiment on Leonardo.
   The configuration is based on that described in Kiss et al. (2020),
   https://doi.org/10.5194/gmd-13-401-2020, but with many improvements.
   Initial conditions are WOA13v2 potential temperature and practical salinity.
@@ -31,6 +31,6 @@ keywords:
 - jra55-do-v1.4.0
 - ryf
 experiment_uuid: 718d9e87-65fb-46d6-beca-3bfb03478001
-name: 1deg_jra55_ryf-leo-718d9e87
+name: 1deg_jra55_ryf_100yr
 model: ACCESS-OM2
 url: https://github.com/VanuatuN/1deg_jra55_ryf.git
